@@ -1,0 +1,25 @@
+while True:
+    x = int(input("Enter first number "))
+    y = int(input("Enter second number "))
+    def add():
+        Z=x+y
+        print("Addition is : ", Z)
+    add()    
+    Anotheroperation = input("Enter the another oeration : ")
+    if(Anotheroperation=="yes"):
+        continue
+    else:
+         break
+    def sub():
+        Z=x-y
+        print("Substracton is: ",Z)
+    sub()
+    def multi():
+        Z=x*y
+        print("Multipication is :",Z)
+    multi()
+    def div():
+        Z=x/y
+        print("Division is :",Z)
+    div()
+
